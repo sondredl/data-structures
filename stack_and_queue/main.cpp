@@ -18,17 +18,17 @@ int main(){
 		myQ.enqueue(i);
 	}
 	while( !myQ.isempty()){
-		cout << myQ.dequeue() << " ";
+		std::cout << myQ.dequeue() << " ";
 	}
-	cout << endl;
+	std::cout << std::endl;
 	stack myS;
 	for(int i = 0; i < 10; i++){
 		myS.push(i);
 	}
 	while( !myS.is_empty()){
-		cout << myS.pop() << " ";
+		std::cout << myS.pop() << " ";
 	}
-	array_list();
+	Array_list::array_list();
 }
 
 void node(){

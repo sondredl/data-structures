@@ -12,7 +12,7 @@
 
 class Queue {
 //    LinkedList* list;
-    ArrayList* list
+    ArrayList* std::list
 public:
     Queue();
     ~Queue();

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Sondre Lindkjølen. All rights reserved.
 //
 
-#pragma once
+// #pragma once
 #include "node.hpp"
 
 template <typename T>
